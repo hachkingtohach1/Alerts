@@ -1,4 +1,4 @@
-<img src = "https://github.com/hachkingtohach1/Alerts/blob/master/icon.png" width="100" height="50" alt="" />
+<img src = "https://github.com/hachkingtohach1/Alerts/blob/master/icon.png" width="150" height="90" alt="" />
 # Alerts
 Advanced Alert plugin for PocketMine-MP
 
