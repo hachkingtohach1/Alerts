@@ -33,7 +33,6 @@ class Alerts extends PluginBase {
 		){
 			$this->getLogger()->warning("You need to review something in config. yml of plugin Alerts!");
 		}
-		$this->timeCountDown = $this->getConfig()->get("timeCountDown");
 		$this->getScheduler()->scheduleRepeatingTask(new sendMessage(), 20);
 		$this->getScheduler()->scheduleRepeatingTask(new sendTip(), 20);
 	    $this->getScheduler()->scheduleRepeatingTask(new sendPopup(), 20);
