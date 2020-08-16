@@ -14,7 +14,6 @@ use hachkingtohach1\Alerts\task\sendTitle;
 
 class Alerts extends PluginBase {
 	
-	/** @var null $instance*/
 	private static $instance = null;
 	
 	public $prefix = "[Alerts] ";
